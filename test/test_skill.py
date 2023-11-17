@@ -33,7 +33,7 @@ from neon_minerva.tests.skill_unit_test_base import SkillTestCase
 class TestSkill(SkillTestCase):
     def test_skill_init(self):
         self.assertGreaterEqual(
-            len(self.skill.bus.emitter.listeners("mycroft.ready")), 1)
+            len(self.skill.bus.ee.listeners("mycroft.ready")), 1)
         self.assertTrue(self.skill.speak_ready)
 
     def test_handle_enable_notification(self):
