@@ -37,7 +37,7 @@ from ovos_workshop import intent_handler
 class CoreReadySkill(NeonSkill):
     def __init__(self, **kwargs):
         NeonSkill.__init__(self, **kwargs)
-        self.bus.on("mycroft.ready", self.handle_ready)
+        self.add_event("mycroft.ready", self.handle_ready)
 
     @classproperty
     def runtime_requirements(self):
