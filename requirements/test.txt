@@ -1,1 +1,2 @@
-neon-minerva>=0.0.1a1
+# neon-minerva>=0.0.1a1
+neon-minerva@git+https://github.com/neongeckocom/neon-minerva@PATCH_FakeBusCompat
