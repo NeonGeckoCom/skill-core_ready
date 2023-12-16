@@ -1,0 +1,11 @@
+en-us:
+  enable_ready_notification.intent:
+    - enable ready notifications
+    - turn on boot notification
+    - activate started speech
+    - enable start up notifications
+  disable_ready_notification.intent:
+    - disable readiness sounds
+    - turn off load sound
+    - deactivate start speech
+    - disable startup notification
