@@ -30,13 +30,13 @@ from ovos_bus_client import Message
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.process_utils import RuntimeRequirements
-from neon_utils.skills import NeonSkill
-from ovos_workshop import intent_handler
+from ovos_workshop.decorators import intent_handler
+from ovos_workshop.skills import OVOSSkill
 
 
-class CoreReadySkill(NeonSkill):
+class CoreReadySkill(OVOSSkill):
     def __init__(self, **kwargs):
-        NeonSkill.__init__(self, **kwargs)
+        OVOSSkill.__init__(self, **kwargs)
         self.add_event("mycroft.ready", self.handle_ready)
 
     @classproperty
@@ -60,7 +60,7 @@ class CoreReadySkill(NeonSkill):
 
     def handle_ready(self, _: Message):
         """
-        Handle mycroft.ready event. Notify the user everything is ready if
+        Handle `mycroft.ready` event. Notify the user everything is ready if
         configured.
         """
         if self.speak_ready:
