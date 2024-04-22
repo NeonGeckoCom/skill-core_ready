@@ -1,8 +1,8 @@
-# <img src='https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png' card_color="#FF8600" width="50" style="vertical-align:bottom">Ready
+# <img src='./logo.svg' card_color="#FF8600" width="50" style="vertical-align:bottom" style="vertical-align:bottom">Ready
 
 ## Summary
 
-Skill to speak when Neon is ready
+Skill to speak a notification when Neon is ready.
 
 ## Description
 

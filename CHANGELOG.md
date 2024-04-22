@@ -1,28 +1,36 @@
 # Changelog
 
-## [0.0.1a3](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.1a3) (2023-12-16)
+## [0.0.2a4](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a4) (2024-04-22)
 
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.1a2...0.0.1a3)
-
-**Merged pull requests:**
-
-- Update test dependency [\#3](https://github.com/NeonGeckoCom/skill-core_ready/pull/3) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [0.0.1a2](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.1a2) (2023-11-27)
-
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.1a1...0.0.1a2)
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a3...0.0.2a4)
 
 **Merged pull requests:**
 
-- Add more phrasing to intents with updated tests [\#2](https://github.com/NeonGeckoCom/skill-core_ready/pull/2) ([NeonDaniel](https://github.com/NeonDaniel))
+- Update test dependency to stable spec [\#8](https://github.com/NeonGeckoCom/skill-core_ready/pull/8) ([NeonDaniel](https://github.com/NeonDaniel))
 
-## [0.0.1a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.1a1) (2023-11-18)
+## [0.0.2a3](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a3) (2024-04-09)
 
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/6c2a65ef396bee4c9614b1e7ed4e7d5305b2b87b...0.0.1a1)
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a2...0.0.2a3)
 
 **Merged pull requests:**
 
-- Skill initial implementation [\#1](https://github.com/NeonGeckoCom/skill-core_ready/pull/1) ([NeonDaniel](https://github.com/NeonDaniel))
+- Update intents and documentation [\#7](https://github.com/NeonGeckoCom/skill-core_ready/pull/7) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [0.0.2a2](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a2) (2024-04-09)
+
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a1...0.0.2a2)
+
+**Merged pull requests:**
+
+- Refactor to extend OVOSSkill and update dependencies [\#6](https://github.com/NeonGeckoCom/skill-core_ready/pull/6) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [0.0.2a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a1) (2024-02-06)
+
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.1...0.0.2a1)
+
+**Merged pull requests:**
+
+- Support ovos-utils 0.1 [\#5](https://github.com/NeonGeckoCom/skill-core_ready/pull/5) ([NeonDaniel](https://github.com/NeonDaniel))
 
 
 
