@@ -1,6 +1,6 @@
 # NEON AI (TM) SOFTWARE, Software Development Kit & Application Framework
 # All trademark and other rights reserved by their respective owners
-# Copyright 2008-2022 Neongecko.com Inc.
+# Copyright 2008-2025 Neongecko.com Inc.
 # Contributors: Daniel McKnight, Guy Daniels, Elon Gasper, Richard Leeds,
 # Regina Bloomstine, Casimiro Ferreira, Andrii Pernatii, Kirill Hrymailo
 # BSD-3 License
@@ -58,7 +58,14 @@ class CoreReadySkill(OVOSSkill):
         """
         return self.settings.get("speak_ready") is not False
 
-    def handle_ready(self, _: Message):
+    @property
+    def patch_homescreen_support(self):
+        """
+        Emit homescreen update event for wallpaper plugin backwards-compat.
+        """
+        return self.settings.get("patch_homescreen_support")
+
+    def handle_ready(self, message: Message):
         """
         Handle `mycroft.ready` event. Notify the user everything is ready if
         configured.
@@ -67,6 +74,13 @@ class CoreReadySkill(OVOSSkill):
             self.speak_dialog("ready")
         else:
             LOG.info("Ready notification disabled in settings")
+
+        if self.patch_homescreen_support:
+            # TODO: This is patching compat with the wallpaper plugin and the
+            #   homescreen skill. Functionality was added in
+            #   `skill-ovos-homescreen` 2.0, but it requires an incompatible
+            #   version of `ovos-workshop`
+            self.bus.emit(message.forward("homescreen.metadata.get"))
 
     @intent_handler("enable_ready_notification.intent")
     def handle_enable_notification(self, _: Message):
