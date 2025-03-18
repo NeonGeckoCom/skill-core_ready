@@ -1,36 +1,28 @@
 # Changelog
 
-## [0.0.2a4](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a4) (2024-04-22)
+## [0.1.1a3](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a3) (2025-03-11)
 
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a3...0.0.2a4)
-
-**Merged pull requests:**
-
-- Update test dependency to stable spec [\#8](https://github.com/NeonGeckoCom/skill-core_ready/pull/8) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [0.0.2a3](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a3) (2024-04-09)
-
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a2...0.0.2a3)
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.1a2...0.1.1a3)
 
 **Merged pull requests:**
 
-- Update intents and documentation [\#7](https://github.com/NeonGeckoCom/skill-core_ready/pull/7) ([NeonDaniel](https://github.com/NeonDaniel))
+- Update automation, gitignore, and license notices [\#12](https://github.com/NeonGeckoCom/skill-core_ready/pull/12) ([NeonDaniel](https://github.com/NeonDaniel))
 
-## [0.0.2a2](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a2) (2024-04-09)
+## [0.1.1a2](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a2) (2025-02-07)
 
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.2a1...0.0.2a2)
-
-**Merged pull requests:**
-
-- Refactor to extend OVOSSkill and update dependencies [\#6](https://github.com/NeonGeckoCom/skill-core_ready/pull/6) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [0.0.2a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.0.2a1) (2024-02-06)
-
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.0.1...0.0.2a1)
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.1a1...0.1.1a2)
 
 **Merged pull requests:**
 
-- Support ovos-utils 0.1 [\#5](https://github.com/NeonGeckoCom/skill-core_ready/pull/5) ([NeonDaniel](https://github.com/NeonDaniel))
+- Patch wallpaper plugin support for older homescreen skill [\#11](https://github.com/NeonGeckoCom/skill-core_ready/pull/11) ([NeonDaniel](https://github.com/NeonDaniel))
+
+## [0.1.1a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a1) (2024-09-17)
+
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.0...0.1.1a1)
+
+**Merged pull requests:**
+
+- Update dependencies to allow for latest OVOS packages [\#10](https://github.com/NeonGeckoCom/skill-core_ready/pull/10) ([NeonDaniel](https://github.com/NeonDaniel))
 
 
 
