@@ -10,3 +10,15 @@ en-us:
     - deactivate start speech
     - disable startup notification
     - stop startup speech
+
+uk-ua:
+  enable_ready_notification.intent:
+    - увімкнути сповіщення про готовність
+    - активувати повідомлення про запуск
+    - включити звук про завантаження
+    - увімкнути оголошення про старт
+  disable_ready_notification.intent:
+    - вимкнути сповіщення про готовність
+    - деактивувати повідомлення про старт
+    - вимкнути оголошення про завантаження
+    - відключити готовність
