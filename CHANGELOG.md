@@ -1,28 +1,12 @@
 # Changelog
 
-## [0.1.1a3](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a3) (2025-03-11)
+## [0.2.1a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.2.1a1) (2025-08-07)
 
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.1a2...0.1.1a3)
-
-**Merged pull requests:**
-
-- Update automation, gitignore, and license notices [\#12](https://github.com/NeonGeckoCom/skill-core_ready/pull/12) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [0.1.1a2](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a2) (2025-02-07)
-
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.1a1...0.1.1a2)
+[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.2.0...0.2.1a1)
 
 **Merged pull requests:**
 
-- Patch wallpaper plugin support for older homescreen skill [\#11](https://github.com/NeonGeckoCom/skill-core_ready/pull/11) ([NeonDaniel](https://github.com/NeonDaniel))
-
-## [0.1.1a1](https://github.com/NeonGeckoCom/skill-core_ready/tree/0.1.1a1) (2024-09-17)
-
-[Full Changelog](https://github.com/NeonGeckoCom/skill-core_ready/compare/0.1.0...0.1.1a1)
-
-**Merged pull requests:**
-
-- Update dependencies to allow for latest OVOS packages [\#10](https://github.com/NeonGeckoCom/skill-core_ready/pull/10) ([NeonDaniel](https://github.com/NeonDaniel))
+- Ua translation [\#14](https://github.com/NeonGeckoCom/skill-core_ready/pull/14) ([NeonDmitry](https://github.com/NeonDmitry))
 
 
 
