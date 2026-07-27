@@ -19,7 +19,7 @@
     "pip_spec": "neon-skill-core_ready",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "0.2.1a1",
+    "version": "0.3.0",
     "url": "https://github.com/NeonGeckoCom/skill-core_ready",
     "skill_id": "skill-core_ready.neongeckocom=skill_core_ready:CoreReadySkill",
     "skillname": "skill-core_ready",
